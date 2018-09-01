@@ -1,6 +1,6 @@
 # dockerized-dotnetcore-webapi-on-kubernetes
 
-Totally simple webapi just for exercise on setting up the kubernetes environment locally on virtual box, helpful resources to set this up:
+Totally simple webapi just for exercise on setting up the kubernetes environment locally on virtual box (actually I deployed this on windows 10 pro hyper-v, but that is no difference, since VM is VM), helpful resources to set this up:
 
 https://developers.caffeina.com/a-kubernetes-cluster-on-virtualbox-20d64666a678
 
