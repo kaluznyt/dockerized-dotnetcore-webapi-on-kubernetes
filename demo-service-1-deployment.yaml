@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-service-1-deployment
+  labels:
+    app: demo-service-1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo-service-1
+  template:
+    metadata:
+      labels:
+        app: demo-service-1
+    spec:
+      containers:
+        - name: demo-service-1-container
+          image: tkaluzny/demo-service-1
+          ports:
+            - containerPort: 80
